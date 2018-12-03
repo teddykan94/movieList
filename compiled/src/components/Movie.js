@@ -1,0 +1,16 @@
+var Movie = props => React.createElement(
+  "div",
+  { className: "movie" },
+  React.createElement(
+    "span",
+    { className: "title" },
+    props.movie.Title
+  )
+);
+
+Movie.propTypes = {
+  movie: React.PropTypes.object.isRequired
+};
+
+export default Movie;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL01vdmllLmpzeCJdLCJuYW1lcyI6WyJNb3ZpZSIsInByb3BzIiwibW92aWUiLCJUaXRsZSIsInByb3BUeXBlcyIsIlJlYWN0IiwiUHJvcFR5cGVzIiwib2JqZWN0IiwiaXNSZXF1aXJlZCJdLCJtYXBwaW5ncyI6IkFBQUEsSUFBSUEsUUFBU0MsS0FBRCxJQUNWO0FBQUE7QUFBQSxJQUFLLFdBQVUsT0FBZjtBQUNFO0FBQUE7QUFBQSxNQUFNLFdBQVUsT0FBaEI7QUFBeUJBLFVBQU1DLEtBQU4sQ0FBWUM7QUFBckM7QUFERixDQURGOztBQU9BSCxNQUFNSSxTQUFOLEdBQWtCO0FBQ2hCRixTQUFPRyxNQUFNQyxTQUFOLENBQWdCQyxNQUFoQixDQUF1QkM7QUFEZCxDQUFsQjs7QUFJQSxlQUFlUixLQUFmIiwiZmlsZSI6Ik1vdmllLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIE1vdmllID0gKHByb3BzKSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwibW92aWVcIj5cbiAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aXRsZVwiPntwcm9wcy5tb3ZpZS5UaXRsZX08L3NwYW4+XG4gIDwvZGl2PlxuXG4pO1xuXG5Nb3ZpZS5wcm9wVHlwZXMgPSB7XG4gIG1vdmllOiBSZWFjdC5Qcm9wVHlwZXMub2JqZWN0LmlzUmVxdWlyZWRcbn07XG5cbmV4cG9ydCBkZWZhdWx0IE1vdmllOyJdfQ==
